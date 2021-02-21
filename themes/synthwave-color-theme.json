@@ -64,6 +64,10 @@
     "editor.wordHighlightBackground": "#34294f88",
     "editor.wordHighlightStrongBackground": "#34294f88",
     "editor.findMatchBackground": "#D18616bb",
+    // "editor.findMatchBackground": "#3591b3",
+    // "searchEditor.findMatchBackground": "#347890",
+    // "searchEditor.findMatchBorder": "#347890",
+    // "editor.findMatchHighlightBackground": "#204050"
     "editor.findMatchHighlightBackground": "#D1861655",
     "editor.findRangeHighlightBackground": "#34294f1a",
     "editor.hoverHighlightBackground": "#463564",
@@ -867,5 +871,141 @@
         "foreground": "#72f1b8",
       }
     },
+    {
+      "name": "Haskell source",
+      "scope": [
+        "source.haskell",
+      ],
+      "settings": {
+        // "foreground": "#36f9f6"
+        // "foreground": "#ff7edbff"
+        "foreground": "#fedeed"
+      }
+    },
+    {
+      "name": "Haskell storage type",
+      "scope": [
+        "storage.type.haskell",
+      ],
+      "settings": {
+        "foreground": "#36f9f6",
+      }
+    },
+    {
+      "name": "Haskell keyword forall",
+      "scope": [
+        "keyword.other.forall.haskell",
+      ],
+      "settings": {
+        "foreground": "#848bbd",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Haskell import",
+      "scope": ["keyword.other.import.haskell", "meta.import.haskell"],
+      "settings": {
+        "foreground": "#72f1b8"
+      }
+    },
+    {
+      "name": "Haskell constant others",
+      "scope": [
+        "constant.other.haskell", 
+      ],
+      "settings": {
+        "foreground": "#72f1b8"
+      }
+    },
+    {
+      "name": "Haskell ADT",
+      "scope": [
+        "meta.declaration.data.algebraic.haskell" 
+      ],
+      "settings": {
+        "foreground": "#36F9F6"
+      }
+    },
+    {
+      "name": "Haskell eq",
+      "scope": [
+        "keyword.operator.eq.haskell"
+      ],
+      "settings": {
+        "foreground": "#2EE2FA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Haskell double colon",
+      "scope": [
+        "keyword.operator.double-colon.haskell"
+      ],
+      "settings": {
+        "foreground": "#2EE2FA",
+      }
+    },
+    {
+      "name": "Haskell numerics",
+      "scope": [
+        "constant.numeric.integral.decimal.haskell",
+        "constant.numeric.floating.decimal.haskell"
+      ],
+      "settings": {
+        "foreground": "#2EE2FA",
+      }
+    },
+    {
+      "name": "Haskell keywords where",
+      "scope": [
+        "keyword.other.where.haskell",
+      ],
+      "settings": {
+        "foreground": "#7ff060",
+      }
+    },
+    {
+      "name": "Haskell keywords",
+      "scope": [
+        "keyword.other.let.haskell",
+        "keyword.other.in.haskell",
+      ],
+      "settings": {
+        "foreground": "#ff7edb",
+      }
+    },
+    {
+      "name": "Haskell control",
+      "scope": [
+        "keyword.control.if.haskell",
+        "keyword.control.then.haskell",
+        "keyword.control.else.haskell",
+        "keyword.control.case.haskell",
+        "keyword.control.of.haskell",
+      ],
+      "settings": {
+        "foreground": "#f97e72",
+      }
+    },
+    {
+      "name": "Haskell lambda",
+      "scope": [
+        "keyword.operator.lambda.haskell",
+      ],
+      "settings": {
+        "foreground": "#36f9f6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Haskell type variable",
+      "scope": [
+        "variable.other.generic-type.haskell",
+      ],
+      "settings": {
+        // "foreground": "#72f1b8",
+        "fontStyle": "italic"
+      }
+    }
   ]
 }
